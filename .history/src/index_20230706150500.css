@@ -1,0 +1,37 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: Quicksand;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Quicksand;
+}
+p{
+  margin: 0;
+}
+.Company_Title{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 60%;
+}
+.Bordered{
+  border: 1px solid #e3e8e5;
+  margin: 20px;
+}
+.empty {
+  border: 1px solid #e3e8e5;
+  margin-top: 30px;
+}
+.Invoice_Title{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.Invoice_Title .left 

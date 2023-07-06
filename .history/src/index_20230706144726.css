@@ -1,0 +1,27 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: Quicksand;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Quicksand;
+}
+
+.Company_Title{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  max-height: ;
+}
+.Company_Title .date{
+  width: 10%;
+  text-align: center;
+}
+.Company_Title  .name{
+  text-align: center;
+  width: 90%;
+}

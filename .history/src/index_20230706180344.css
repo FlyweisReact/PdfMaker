@@ -1,0 +1,269 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: Quicksand !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Quicksand !important;
+}
+p {
+  margin: 0;
+}
+.Company_Title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 60%;
+  margin-top: 20px;
+}
+.Company_Title p {
+  font-size: 14px;
+}
+.Bordered {
+  border: 1px solid #e3e8e5;
+  margin: 20px;
+  margin-top: 0;
+}
+.empty {
+  border: 1px solid #e3e8e5;
+  margin-top: 10px;
+}
+.Invoice_Title {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  padding-bottom: 0;
+}
+.Invoice_Title .left p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.Invoice_Title .left .email {
+  color: #1ab1db;
+}
+
+.Invoice_Title .right p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.empty2 {
+  border: 1px solid #e3e8e5;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.Date {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.Date p {
+  font-weight: bold;
+  font-size: 12px;
+}
+.Bill_To {
+  padding: 20px;
+  padding-top: 0;
+}
+.Bill_To h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.Bill_To .Bill_To_Content .title {
+  font-weight: bolder;
+  font-size: 14px;
+}
+.Bill_To .Bill_To_Content .address {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  gap: 10px;
+}
+.Bill_To .Bill_To_Content .address p {
+  max-width: 500px;
+}
+.Bill_To .Bill_To_Content .GST {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  gap: 10px;
+}
+.Bill_To .Bill_To_Content .GST p {
+  max-width: 500px;
+}
+.Bill_To .Bill_To_Content .GST .first {
+  margin-right: 20px;
+}
+
+table {
+  border: 1px solid #e3e8e5;
+  width: 98%;
+  margin: auto;
+  padding: 0 !important;
+}
+table thead tr {
+  padding: 0 !important;
+}
+table thead {
+  padding: 0 !important;
+}
+table thead tr td {
+  padding: 10px;
+  font-size: 14px;
+  border-right: 1px solid #e3e8e5;
+  color: #929694;
+  font-weight: bold;
+  min-width: 120px;
+}
+table tbody tr td {
+  padding: 10px;
+  font-size: 14px;
+  border-right: 1px solid #e3e8e5;
+  border-top: 1px solid #e3e8e5;
+  color: #000;
+  font-weight: bold;
+  min-width: 120px;
+}
+table tr td:last-child {
+  border-right: none;
+}
+
+.signature_Div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  align-items: stretch;
+}
+.signature_Div .left {
+  width: 50%;
+}
+.signature_Div .right {
+  max-width: 50%;
+  min-width: 25%;
+}
+.signature_Div .left h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+.signature_Div .left p {
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+}
+.signature_Div .right {
+  border-top: 1px solid #e3e8e5;
+}
+.signature_Div .right .two_sec {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e3e8e5;
+}
+.signature_Div .right .two_sec:last-child {
+  border-bottom: 1px solid #e3e8e5;
+}
+.signature_Div .right .two_sec p {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.Red {
+  padding: 20px;
+  padding-top: 0;
+}
+.Red div {
+  display: flex;
+  gap: 20px;
+}
+.Red p {
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.Red .red {
+  color: red;
+}
+.Red .under {
+  text-decoration: underline;
+}
+.Container_Div {
+  display: flex;
+  padding: 20px;
+}
+.Container_Div .Form_Container {
+  width: 50%;
+}
+.Container_Div #pdfContent {
+  width: 50%;
+}
+
+.Form_Container .Header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.thanks {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Form_Container form .Two_Input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.Form_Container form .Two_Input div {
+  width: 30%;
+}
+.Form_Container form .Two_Input input {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+}
+.Form_Container form .Two_Input div button {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #32a852;
+  color: #fff;
+  border: 1px solid #32a852;
+  font-weight: bold;
+  font-size: 20px;
+}
+.GeneratePdf{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #32a852;
+  color: #fff;
+  border: 1px solid #32a852;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-top: 20px;
+}
+
+.fa-minus{
+  cursor: pointer;
+}

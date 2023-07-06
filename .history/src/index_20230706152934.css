@@ -1,0 +1,118 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: Quicksand;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Quicksand;
+}
+p {
+  margin: 0;
+}
+.Company_Title {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 60%;
+}
+.Company_Title p {
+  font-size: 14px;
+}
+.Bordered {
+  border: 1px solid #e3e8e5;
+  margin: 20px;
+}
+.empty {
+  border: 1px solid #e3e8e5;
+  margin-top: 30px;
+}
+.Invoice_Title {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  align-items: center;
+}
+.Invoice_Title .left p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.Invoice_Title .left .email {
+  color: #1ab1db;
+}
+
+.Invoice_Title .right p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.empty2 {
+  border: 1px solid #e3e8e5;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.Date {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+  margin-bottom: 20px;
+}
+.Date p {
+  font-weight: bold;
+  font-size: 14px;
+}
+.Bill_To {
+  margin-top: 2%;
+  padding: 20px;
+}
+.Bill_To h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Bill_To .Bill_To_Content {
+  margin-top: 2%;
+}
+.Bill_To .Bill_To_Content .title {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.Bill_To .Bill_To_Content .address {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  gap: 10px;
+}
+.Bill_To .Bill_To_Content .address p {
+  max-width: 500px;
+}
+.Bill_To .Bill_To_Content .GST {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  gap: 10px;
+}
+.Bill_To .Bill_To_Content .GST p {
+  max-width: 500px;
+}
+.Bill_To .Bill_To_Content .GST .first {
+  margin-right: 20px;
+}
+
+table {
+  border: 1px solid #e3e8e5;
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+table 
