@@ -80,7 +80,11 @@ const App = () => {
             ) : (
               ""
             )}
-          
+            {inputError ? (
+              <Alert variant="danger">Please fill all required fields</Alert>
+            ) : (
+              ""
+            )}
             <div className="Two_Input">
               <div>
                 <label>Date</label>

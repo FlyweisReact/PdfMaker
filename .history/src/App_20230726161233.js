@@ -56,15 +56,33 @@ const App = () => {
   };
 
   const generatePDF = () => {
-    const element = document.getElementById("pdfContent");
-    const opt = {
-      margin: 0,
-      filename: "invoice.pdf",
-      image: { type: "jpeg", quality: 0.98 },
-      html2canvas: { scale: 2 },
-      jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
-    };
-    html2pdf().from(element).set(opt).save();
+    if (
+      date &&
+      companyGstIn &&
+      taxInvoice &&
+      billTo &&
+      billingAddress &&
+      gstIn &&
+      totalvalues &&
+      totalgst &&
+      invoiceValue &&
+      amountInWords &&
+      data.length > 0 &&
+      invoiceNumber
+    ) {
+      const element = document.getElementById("pdfContent");
+      const opt = {
+        margin: 0,
+        filename: "invoice.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+      };
+      html2pdf().from(element).set(opt).save();
+      setInputError(false);
+    } else {
+      setInputError(true);
+    }
   };
 
   return (
@@ -80,7 +98,11 @@ const App = () => {
             ) : (
               ""
             )}
-          
+            {inputError ? (
+              <Alert variant="danger">Please fill all required fields</Alert>
+            ) : (
+              ""
+            )}
             <div className="Two_Input">
               <div>
                 <label>Date</label>
